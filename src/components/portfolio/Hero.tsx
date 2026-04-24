@@ -9,7 +9,6 @@ export default function Hero() {
       <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
 
       <div className="container relative z-10 grid lg:grid-cols-12 gap-12 items-center">
-        {/* LEFT */}
         <div className="lg:col-span-8 space-y-8 animate-fade-up">
           <div className="flex items-center gap-3 font-mono text-xs">
             <span className="flex items-center gap-1.5 text-terminal">
@@ -56,7 +55,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* RIGHT — terminal card */}
         <div className="lg:col-span-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           <div className="surface-card rounded-lg p-1 shadow-card">
             <div className="flex items-center gap-1.5 px-3 py-2 border-b border-line">
@@ -74,7 +72,11 @@ ramiro@dev:~$ cat profile.json
   "stack": [
     "Node.js", "Angular",
     "C#", "Java",
-    "NetSuite"
+    "NetSuite", "SuiteScript",
+    "SQL", "DevOps",
+    "HTML", "CSS",
+    "JavaScript", "TypeScript",
+    "MongoDB", "Express.js", "SQL Server"
   ],
   "location": "Montevideo, UY",
   "languages": ["es", "en"],

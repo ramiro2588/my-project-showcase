@@ -6,10 +6,10 @@ export default function Contact() {
   const { t } = useLang();
 
   const items = [
-    { icon: Mail, label: t.contact.emailLabel, value: "ramiro2588@hotmail.com", href: "mailto:ramiro2588@hotmail.com" },
+    { icon: Mail, label: t.contact.emailLabel, value: "ramiro2588@gmail.com", href: "mailto:ramiro2588@gmail.com" },
     { icon: Phone, label: t.contact.phoneLabel, value: "+598 091 621 360", href: "tel:+598091621360" },
     { icon: MapPin, label: t.contact.locationLabel, value: "Montevideo, Uruguay" },
-    { icon: Linkedin, label: t.contact.linkedin, value: "in/ramirogonzález-shkurti", href: "https://www.linkedin.com/in/ramirogonz%C3%A9lez-shkurti" },
+    { icon: Linkedin, label: t.contact.linkedin, value: "in/ramiro-gonzález-shkurti", href: "https://www.linkedin.com/in/ramiro-gonzález-shkurti/" },
     { icon: Github, label: t.contact.github, value: "@ramiro2588", href: "https://github.com/ramiro2588" },
   ];
 

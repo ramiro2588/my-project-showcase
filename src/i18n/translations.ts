@@ -26,8 +26,8 @@ export const translations = {
       p1: "I'm a developer with experience in both front-end and back-end, focused on building efficient, scalable, and high-performance solutions.",
       p2: "Passionate about innovation, continuous learning, and collaborating with teams to deliver high-quality results. Currently working as an Oracle NetSuite Technical Consultant after 3 years building MEAN-stack applications at TCS.",
       stats: [
-        { value: "3+", label: "Years as developer" },
-        { value: "10+", label: "Projects shipped" },
+        { value: "4+", label: "Years as developer" },
+        { value: "2", label: "Different comapanies" },
         { value: "2", label: "Languages spoken" },
       ],
     },
@@ -50,16 +50,16 @@ export const translations = {
         {
           role: "Technical Consultant",
           company: "Oracle NetSuite",
-          period: "Mar 2025 — Present",
+          period: "Mar 2025 — Apr 2026",
           desc: "Customization, integration and maintenance of the NetSuite ERP. Develop technical solutions using SuiteScript, SuiteFlow and APIs. Translate business requirements into technical specs, perform scripting and data migration.",
-          tags: ["SuiteScript", "SuiteFlow", "APIs", "Data Migration"],
+          tags: ["SuiteScript", "SuiteFlow", "APIs", "Data Migration", "HTML", "CSS", "JavaScript"],
         },
         {
           role: "Software Developer",
           company: "TATA Consultancy Services",
           period: "May 2022 — Mar 2025",
           desc: "Designed, implemented and maintained MEAN Stack applications in agile teams. Optimized processes, ensured quality and scalability, and contributed to continuous improvement through agile methodologies.",
-          tags: ["MongoDB", "Express", "Angular", "Node.js", "Scrum"],
+          tags: ["MongoDB", "Express", "Angular", "Node.js", "Scrum", "HTML", "CSS", "JavaScript"],
         },
         {
           role: "Telephone Operator",
@@ -126,8 +126,8 @@ export const translations = {
       p1: "Soy desarrollador con experiencia en front-end y back-end, enfocado en construir soluciones eficientes, escalables y de alto rendimiento.",
       p2: "Apasionado por la innovación, el aprendizaje continuo y el trabajo en equipo para entregar resultados de calidad. Actualmente me desempeño como Consultor Técnico Oracle NetSuite, después de 3 años construyendo aplicaciones MEAN en TCS.",
       stats: [
-        { value: "3+", label: "Años como dev" },
-        { value: "10+", label: "Proyectos entregados" },
+        { value: "4+", label: "Años como dev" },
+        { value: "2", label: "Compañias diferentes" },
         { value: "2", label: "Idiomas" },
       ],
     },
@@ -150,16 +150,16 @@ export const translations = {
         {
           role: "Consultor Técnico",
           company: "Oracle NetSuite",
-          period: "Mar 2025 — Presente",
+          period: "Mar 2025 — Abr 2026",
           desc: "Customización, integración y mantenimiento del ERP NetSuite. Desarrollo soluciones técnicas con SuiteScript, SuiteFlow y APIs. Traduzco requerimientos de negocio en especificaciones técnicas, scripting y migración de datos.",
-          tags: ["SuiteScript", "SuiteFlow", "APIs", "Migración de datos"],
+          tags: ["SuiteScript", "SuiteFlow", "APIs", "Migración de datos", "HTML", "CSS", "JavaScript"],
         },
         {
           role: "Software Developer",
           company: "TATA Consultancy Services",
           period: "May 2022 — Mar 2025",
           desc: "Diseño, implementación y mantenimiento de aplicaciones MEAN Stack en equipos ágiles. Optimización de procesos, calidad y escalabilidad, contribuyendo a la mejora continua mediante metodologías ágiles.",
-          tags: ["MongoDB", "Express", "Angular", "Node.js", "Scrum"],
+          tags: ["MongoDB", "Express", "Angular", "Node.js", "Scrum", "HTML", "CSS", "JavaScript"],
         },
         {
           role: "Operador Telefónico",

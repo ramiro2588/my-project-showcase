@@ -1,4 +1,4 @@
-export type ProjectCategory = "work" | "university" | "freelance";
+export type ProjectCategory = "university" | "freelance";
 
 export interface Project {
   id: string;
@@ -15,22 +15,6 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  // === WORK ===
-  {
-    id: "netsuite",
-    title: "NetSuite Customizations",
-    category: "work",
-    year: "2025",
-    descriptionEn:
-      "Collection of SuiteScript modules I built and fixed at my current job: ERP customizations, data migration scripts and workflow automations on Oracle NetSuite.",
-    descriptionEs:
-      "Conjunto de módulos SuiteScript que desarrollé y corregí en mi trabajo actual: customizaciones del ERP, scripts de migración de datos y automatizaciones de workflows en Oracle NetSuite.",
-    stack: ["SuiteScript", "JavaScript", "Oracle NetSuite", "REST APIs"],
-    repo: "https://github.com/ramiro2588/netsuite",
-    highlight: true,
-  },
-
-  // === FREELANCE ===
   {
     id: "tacua",
     title: "Tacua — Landing Page",
@@ -44,7 +28,6 @@ export const projects: Project[] = [
     repo: "https://github.com/ramiro2588/tacua-project",
   },
 
-  // === UNIVERSITY (public, from screenshot) ===
   {
     id: "devops",
     title: "DevOps — Microservices Pipeline",
@@ -55,8 +38,7 @@ export const projects: Project[] = [
     descriptionEs:
       "Trabajo de DevOps: infraestructura como código (HCL/Terraform) que provisiona una arquitectura de microservicios con shipping, products, payments, orders y un webapp front-end.",
     stack: ["HCL", "Terraform", "Docker", "Microservices", "CI/CD"],
-    repo: "https://github.com/ramiro2588/DevOps",
-    highlight: true,
+    repo: "https://github.com/ramiro2588/DevOps"
   },
   {
     id: "shipping-service",
@@ -109,7 +91,6 @@ export const projects: Project[] = [
     repo: "https://github.com/ramiro2588/webapp",
   },
 
-  // === UNIVERSITY (private — from .zip uploads) ===
   {
     id: "obl-ayed1",
     title: "Algorithms & Data Structures I",
@@ -120,7 +101,7 @@ export const projects: Project[] = [
     descriptionEs:
       "Implementación en Java de estructuras de datos y algoritmos fundamentales (listas, árboles, ordenamiento). Obligatorio de AyED 1 en ORT.",
     stack: ["Java", "Data Structures", "Algorithms"],
-    isPrivate: true,
+    repo: "https://drive.google.com/drive/folders/1fZaGn6lBoaT7c0wVFmAX0OT4LfVCw5m7?usp=drive_link"
   },
   {
     id: "obl-ayed2",
@@ -132,8 +113,7 @@ export const projects: Project[] = [
     descriptionEs:
       "Servidor de un juego online educativo para niños. Los jugadores exploran el mundo mientras el servidor mantiene el registro de jugadores, estado del mundo y reglas del juego. Construido con estructuras de datos pensadas para alto tráfico.",
     stack: ["Java", "Custom Data Structures", "Server Architecture"],
-    isPrivate: true,
-    highlight: true,
+    repo: "https://drive.google.com/drive/folders/1GOHsfOL9p4XGGVISWAUfDHJkoGIIELMb?usp=sharing"
   },
   {
     id: "obl-bd2",
@@ -145,7 +125,7 @@ export const projects: Project[] = [
     descriptionEs:
       "Proyecto completo de base de datos: modelo entidad-relación, diseño de tablas e índices, consultas complejas, procedures, funciones y disparadores.",
     stack: ["SQL", "MER", "Stored Procedures", "Triggers"],
-    isPrivate: true,
+    repo: "https://drive.google.com/drive/folders/1w6XiCG4UrqTl9tBuaAEOn5qgcZy4cFv5?usp=sharing",
   },
   {
     id: "obl-dyda",
@@ -157,7 +137,7 @@ export const projects: Project[] = [
     descriptionEs:
       "Aplicación de escritorio en Java con GUI Swing aplicando patrones de diseño y buenas prácticas de POO. Obligatorio de Diseño y Desarrollo de Aplicaciones.",
     stack: ["Java", "Swing", "Design Patterns", "OOP"],
-    isPrivate: true,
+    repo: "https://drive.google.com/drive/folders/1TjU9ayp4KCVfyEHN-4ZaE-Sm28IJlf8m?usp=sharing",
   },
   {
     id: "obl-p3",
@@ -169,7 +149,6 @@ export const projects: Project[] = [
     descriptionEs:
       "Aplicación C# .NET completa con arquitectura en capas: API, DataAccess, Domain y MVC. Persistencia en SQL Server.",
     stack: ["C#", ".NET", "MVC", "SQL Server", "Web API"],
-    isPrivate: true,
-    highlight: true,
+    repo: "https://drive.google.com/drive/folders/1ayGwsn6X81kqrWQBATpfQKuBE_k_wyl_?usp=sharing"
   },
 ];

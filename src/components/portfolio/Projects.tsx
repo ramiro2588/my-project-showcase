@@ -14,7 +14,6 @@ export default function Projects() {
 
   const filters: { key: Filter; label: string }[] = [
     { key: "all", label: t.projects.filters.all },
-    { key: "work", label: t.projects.filters.work },
     { key: "university", label: t.projects.filters.university },
     { key: "freelance", label: t.projects.filters.freelance },
   ];
