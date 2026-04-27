@@ -1,4 +1,4 @@
-export type ProjectCategory = "university" | "freelance";
+export type ProjectCategory = "university" | "freelance" | "personal" | "";
 
 export interface Project {
   id: string;
@@ -15,6 +15,18 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    id: "bristol",
+    title: "Bristol - Home Page Copy",
+    category: "personal",
+    year: "2026",
+    descriptionEn:
+      "Bristol home page copy built in a day.",
+    descriptionEs:
+      "Home page de Bristol construido en un día.",
+    stack: ["HTML", "CSS",],
+    repo: "https://github.com/ramiro2588/Bristol-Copy-only-html",
+  },
   {
     id: "tacua",
     title: "Tacua — Landing Page",
